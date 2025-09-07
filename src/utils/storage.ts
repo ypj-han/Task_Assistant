@@ -84,7 +84,7 @@ export class StorageManager {
           notifications: true,
           reminderInterval: 30,
           theme: 'light',
-          language: 'zh-CN',
+          language: 'en-US',
         };
       }
       return JSON.parse(stored);
@@ -94,7 +94,7 @@ export class StorageManager {
         notifications: true,
         reminderInterval: 30,
         theme: 'light',
-        language: 'zh-CN',
+        language: 'en-US',
       };
     }
   }
